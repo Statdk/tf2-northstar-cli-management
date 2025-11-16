@@ -1,6 +1,8 @@
 # CLI Northstar for Titanfall 2 Management
 
-Some convenience scripts for updating, enabling, and disabling the [Northstar Client](https://github.com/R2Northstar/Northstar) for Titanfall 2 on my Linux system.
+Some convenience scripts for updating, enabling, and disabling the [Northstar Client](https://github.com/R2Northstar/Northstar).
+
+I wrote these because I don't care for mods and can't be bothered to use a launcher exclusively for it.
 
 ## Usage
 
@@ -14,7 +16,7 @@ Accessible from the CLI environment:
 
 ### Preparation
 
-Clone the repository locally and run the scripts from a command line. Add the folder to your PATH for further convenience (or don't).
+Clone or unzip the repository locally and run the scripts from a command line. Add the resulting folder to your PATH for further convenience (or don't).
 
 These scripts assume your game is located in your home folder (`~/.local/share/Steam/steamapps/common/Titanfall2`). If your game is installed in a different directory, edit the `$LOC` variable in the `_tf2-loc.sh` file with your correction accordingly.
 
